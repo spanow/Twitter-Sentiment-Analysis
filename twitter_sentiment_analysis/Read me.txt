@@ -1,8 +1,0 @@
-
-before you must download data set and GloVe word vectors provided by the StanfordNLP group , the link in rapport and put it in "dataset" folder
-
-first, you must execute "twitter_app.ipynb" to recieve tweets from twitter api th result in "twittes.csv"   
-execute  "preprocess.py" to clean data_train and data_test ("twitter.csv") , results in "clean_data" folder
-execute "extraction features.py" to generate unigrams, bigrams , trigrams in "features" folder (pkl formats)
-
-now , you can execute scripts of classifiers in "models" folder (each script generate results in csv file) 
